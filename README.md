@@ -13,7 +13,7 @@
 
 ## Setup Instructions:
 <img width="1425" height="528" alt="image" src="https://github.com/user-attachments/assets/0b4740b9-e2c7-4b40-afaf-710cc2573fa8" />
-Hardware Setup:
+
 - Tools/Equipment Required:
   - 3 7408 Quad 2-input AND ICs
   - 3 7432 Quad 2-input OR ICs
@@ -34,7 +34,7 @@ Hardware Setup:
 This was an individual project. I generated the truth table for the seven-segment decoder to determine all possible input combinations and the corresponding desired output values for each segment, derived the K-maps, and implemented, tested, and verified the circuit functionality on the breadboard.
 
 ## Sample Test:
-Sample Verilog Design Code Implementation
+Sample Verilog Design Code Testbench Results
 <img width="1539" height="549" alt="image" src="https://github.com/user-attachments/assets/67482c45-1bf6-4e49-be80-f48f917175f6" />
 
 ## Reflection:

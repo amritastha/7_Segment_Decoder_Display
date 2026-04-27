@@ -27,8 +27,8 @@
 
 ## How to Run:
 1.  Open Online Verilog platform: https://www.edaplayground.com
-2.  Upload the provided 7_Segment_Decoder_Display_Design.sv file to the platform
-3.  After compiling the code, run the code
+2.  Upload the provided 7_Segment_Decoder_Display_Design.sv and 7_Segment_Decoder_Display_Design_Testbench.sv file to the platform
+3.  After compiling the code, run the testbech to view results
 
 ## Key Features:
 - Utilizes the minimum number of gates possible by employing Karnaugh maps (K-map) for simplification

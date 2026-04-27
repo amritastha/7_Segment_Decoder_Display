@@ -25,6 +25,11 @@
   - Breadboard and wires
   - DC Power Supply
 
+## How to Run:
+1.  Open Online Verilog platform: https://www.edaplayground.com
+2.  Upload the provided 7_Segment_Decoder_Display_Design.sv file to the platform
+3.  After compiling the code, run the code
+
 ## Key Features:
 - Utilizes the minimum number of gates possible by employing Karnaugh maps (K-map) for simplification
 - Verified using Verilog with a test bench covering all the test cases

@@ -1,8 +1,7 @@
 # 7_Segment_Decoder_Display
 
 ## Overview:
-- Produce a combinational circuit functioning as a seven-segment decoder to receive a three-bit binary number and mapped to the corresponding decimal digits ranging from 0 to 7
-- Eight permuatations (000 to 111) will be mapped to the decimal digits 0 through 7
+- Produce a combinational circuit functioning as a seven-segment decoder to receive a three-bit binary number (eight permutations 000 to 111) and mapped to the corresponding decimal digits ranging from 0 to 7 on a 7-segment display
 
 ## Purpose:
 - Design, implement, and test a combinational logic circuit by ultilizing the minimum number of gates as possible to function as a seven-segment decoder that receives a three-bit binary number as its input and where each of the seven outputs (a, b, c, d, e, f, and g) represents one segment of the 7-segment LED display to visually display the corresponding decimal (equivalent) value ranging from 0 to 7 based on the segment combinations
@@ -14,7 +13,7 @@
 ## Setup Instructions:
 <img width="1425" height="528" alt="image" src="https://github.com/user-attachments/assets/0b4740b9-e2c7-4b40-afaf-710cc2573fa8" />
 
-- Tools/Equipment Required:
+- Equipment Required:
   - 3 7408 Quad 2-input AND ICs
   - 3 7432 Quad 2-input OR ICs
   - 1 7486 Quad 2-input XOR IC
@@ -28,12 +27,13 @@
 ## How to Run:
 1.  Open Online Verilog platform: https://www.edaplayground.com
 2.  Upload the provided 7_Segment_Decoder_Display_Design.sv and 7_Segment_Decoder_Display_Design_Testbench.sv file to the platform
-3.  After compiling the code, run the testbech to view results
+3.  After compiling the code, run the testbench
+4.  After running the testbench, view the output results in the terminal
 
 ## Key Features:
-- Utilizes the minimum number of gates possible by employing Karnaugh maps (K-map) for simplification
+- Utilized the minimum number of gates possible by employing Karnaugh maps (K-map) for simplification
 - Verified using Verilog with a test bench covering all the test cases
-- Designed in structural model by using only 2-, 3-, and 4-input gates
+- Designed in structural model by using basic AND, OR, and XOR gates
 
 ## Contribution: 
 This was an individual project. I generated the truth table for the seven-segment decoder to determine all possible input combinations and the corresponding desired output values for each segment, derived the K-maps, and implemented, tested, and verified the circuit functionality on the breadboard.
